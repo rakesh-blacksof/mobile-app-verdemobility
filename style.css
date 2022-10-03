@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "gilroy-bold";
+  src: url("fonts/Gilroy-Bold.woff");
+}
+@font-face {
+  font-family: "gilroy-light";
+  src: url("fonts/Gilroy-Light.woff");
+}
+@font-face {
+  font-family: "gilroy-xl-bold";
+  src: url("fonts/gilroy-xl-bold.ttf");
+}
+@font-face {
+  font-family: "poppins-light";
+  src: url("fonts/Poppins-Light.ttf");
+}
+@font-face {
+  font-family: "poppins-medium";
+  src: url("fonts/Poppins-Medium.ttf");
+}
+
+@layer components {
+  .d {
+    @apply border-2 border-red-900 border-solid;
+  }
+}

@@ -2,191 +2,53 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./index.css" />
-    <link rel="stylesheet" href="./styles.css" />
+    <title>Vite App</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="https://www.verdemobility.com/">
-          <img src="./public/icons/logo.svg" alt="verdemobility" />
-        </a>
-        <div class="links_wrapper">
-          <a href="#" class="contact">Contact Us</a>
-          <a href="#" class="login">Login</a>
+    <main>
+      <section class="min-h-screen relative bg-smoke">
+        <div
+          class="absolute bottom-0 left-auto right-0 top-auto max-w-screen-xl"
+        >
+          <img src="img/banner_img.png" class="w-full ml-auto" alt="" />
         </div>
-      </nav>
-    </header>
-    <section class="mobile_contact_btn">
-      <a href="#">Contact</a>
-    </section>
-    <section class="banner_wrapper">
-      <div class="text_wrapper">
-        <h2>Plug into India's Largest <b>EV Charging</b> Network with <b>VerdeMobility</b> EV Life App</b></h2>
-        <span
-          >The road to a sustainable future 
-          <b>begins here!</b></span
+        <div
+          class="px-3 md:w-10/12 xl:w-9/12 mx-auto h-screen flex items-center"
         >
-        <div class="btn_wrapper">
-          <a
-            href="https://apps.apple.com/in/app/verdemobility/id1622189313"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <img src="./public/icons/app_link_apple.svg" alt="app store" />
-          </a>
-          <a
-            href="https://play.google.com/store/apps/details?id=com.verdemobility.ev.charger"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src="./public/icons/app_link_playstore.svg" alt="play store" />
-          </a>
+          <div class="max-w-2xl grid gap-7">
+            <h2
+              class="text-3xl md:text-[40px] md:leading-snug max-w-screen-sm xl:max-w-none lg:text-5xl lg:leading-tight xl:text-[55px] 2xl:text-[55px] pr-10 pt-10 xxl:leading-tight xl:leading-tight font-gilroyLight"
+            >
+              Plug into India's Largest
+              <b class="font-gilroyBold">EV Charging</b> Network with
+              <b class="font-gilroyBold">VerdeMobility</b> EV Life App
+            </h2>
+            <span class="text-3xl font-poppinsLight pr-10"
+              >The road to a sustainable future
+              <b class="font-poppin">begins here!</b></span
+            >
+            <div class="flex flex-wrap gap-10 mt-7">
+              <a
+                href="https://apps.apple.com/in/app/verdemobility/id1622189313"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <img src="icons/app_link_apple.svg" alt="app store" />
+              </a>
+              <a
+                href="https://play.google.com/store/apps/details?id=com.verdemobility.ev.charger"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src="icons/app_link_playstore.svg" alt="play store" />
+              </a>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="img_wrapper">
-        <img src="./public/img/banner_img.png" alt="banner image" />
-      </div>
-    </section>
-    <section class="mobile_app_wrapper">
-      <img src="./public/img/mobile_app.png" alt="mobile app" />
-      <h2>
-        Get Access <br />
-        To Our Network.
-      </h2>
-      <p>
-        The VerdeMobility EV Life App is available for both App Store and Google Play Store. Download the app and let's charge ahead for a greener & better future.
-      </p>
-    </section>
-
-    <footer>
-      <span>
-        Copyright 2022 ©<span class="text-green">verdemobility</span>. All
-        Rights Reserved.
-      </span>
-      <div class="icons_wrapper">
-        <a
-          target="_blank"
-          href="https://www.facebook.com/verdemobility/"
-          rel="noreferrer noopener"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 12.088 22.569"
-          >
-            <path
-              d="M12.905,12.7l.627-4.085H9.613V5.96a2.042,2.042,0,0,1,2.3-2.207H13.7V.276A21.728,21.728,0,0,0,10.535,0C7.307,0,5.2,1.956,5.2,5.5V8.611H1.609V12.7H5.2v9.874H9.613V12.7Z"
-              transform="translate(-1.609)"
-              fill="inherit"
-              opacity="0.7"
-            />
-          </svg>
-        </a>
-        <a
-          target="_blank"
-          href="https://www.linkedin.com/company/verdemobility/?original_referer=https%3A%2F%2Fwww.verdemobility.com%2F"
-          rel="noreferrer noopener"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 22.658 22.657"
-          >
-            <path
-              d="M5.072,22.658H.374V7.531h4.7ZM2.72,5.467a2.733,2.733,0,1,1,2.72-2.746A2.743,2.743,0,0,1,2.72,5.467ZM22.653,22.658H17.965V15.294c0-1.755-.035-4.006-2.442-4.006-2.442,0-2.817,1.907-2.817,3.879v7.49H8.014V7.531h4.505V9.594h.066A4.936,4.936,0,0,1,17.03,7.152c4.754,0,5.628,3.131,5.628,7.2v8.31Z"
-              transform="translate(0 -0.001)"
-              fill="inherit"
-              opacity="0.7"
-            />
-          </svg>
-        </a>
-        <a
-          target="_blank"
-          href="https://www.instagram.com/verdemobility/"
-          rel="noreferrer noopener"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 22.34 22.34"
-          >
-            <g transform="translate(1 1)" opacity="0.7">
-              <path
-                d="M8.085,3h10.17A5.085,5.085,0,0,1,23.34,8.085v10.17a5.085,5.085,0,0,1-5.085,5.085H8.085A5.085,5.085,0,0,1,3,18.255V8.085A5.085,5.085,0,0,1,8.085,3Z"
-                transform="translate(-3 -3)"
-                fill="none"
-                stroke="inherit"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-              />
-              <path
-                d="M21.1,15.813a4.544,4.544,0,1,1-3.829-3.829A4.544,4.544,0,0,1,21.1,15.813Z"
-                transform="translate(-6.399 -6.35)"
-                fill="none"
-                stroke="inherit"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-              />
-              <path
-                d="M26.25,9.75h0"
-                transform="translate(-10.487 -5.174)"
-                fill="none"
-                stroke="inherit"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-              />
-            </g>
-          </svg>
-        </a>
-        <a
-          target="_blank"
-          href="https://twitter.com/VerdeMobility"
-          rel="noreferrer noopener"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 26.762 21.735"
-          >
-            <path
-              d="M24.011,8.8c.017.238.017.475.017.713A15.5,15.5,0,0,1,8.422,25.116,15.5,15.5,0,0,1,0,22.654a11.346,11.346,0,0,0,1.324.068,10.984,10.984,0,0,0,6.809-2.343,5.494,5.494,0,0,1-5.128-3.8,6.917,6.917,0,0,0,1.036.085,5.8,5.8,0,0,0,1.443-.187,5.485,5.485,0,0,1-4.4-5.383v-.068a5.524,5.524,0,0,0,2.479.7,5.493,5.493,0,0,1-1.7-7.336,15.59,15.59,0,0,0,11.309,5.739,6.192,6.192,0,0,1-.136-1.257,5.49,5.49,0,0,1,9.492-3.753,10.8,10.8,0,0,0,3.481-1.324A5.47,5.47,0,0,1,23.6,6.811a11,11,0,0,0,3.158-.849A11.79,11.79,0,0,1,24.011,8.8Z"
-              transform="translate(0 -3.381)"
-              fill="inherit"
-              opacity="0.7"
-            />
-          </svg>
-        </a>
-        <a
-          target="_blank"
-          href="https://www.youtube.com/channel/UCbzi6Pa5HFaki9S8FA2f-UA"
-          rel="noreferrer noopener"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 31.475 22.131"
-          >
-            <path
-              d="M31.868,7.963a3.955,3.955,0,0,0-2.783-2.8C26.63,4.5,16.788,4.5,16.788,4.5s-9.843,0-12.3.662a3.955,3.955,0,0,0-2.783,2.8,41.488,41.488,0,0,0-.658,7.625,41.488,41.488,0,0,0,.658,7.625A3.9,3.9,0,0,0,4.49,25.969c2.455.662,12.3.662,12.3.662s9.843,0,12.3-.662a3.9,3.9,0,0,0,2.783-2.756,41.488,41.488,0,0,0,.658-7.625,41.488,41.488,0,0,0-.658-7.625Zm-18.3,12.305v-9.36l8.226,4.68-8.226,4.68Z"
-              transform="translate(-1.051 -4.5)"
-              fill="inherit"
-              opacity="0.7"
-            />
-          </svg>
-        </a>
-      </div>
-    </footer>
+      </section>
+    </main>
+    <script type="module" src="/main.js"></script>
   </body>
 </html>
