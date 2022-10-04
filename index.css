@@ -175,7 +175,7 @@ nav .links_wrapper .contact {
 
   .banner_wrapper .img_wrapper {
     min-height: 500px;
-    background-image: url("./public/img/banner_img.png");
+    background-image: url("./public/img/banner_img.webp");
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: bottom right;
@@ -190,7 +190,7 @@ nav .links_wrapper .contact {
 
   .banner_wrapper .img_wrapper {
     min-height: 350px;
-    background-image: url("./public/img/banner_img.png");
+    background-image: url("./public/img/banner_img.webp");
     background-repeat: no-repeat;
     background-size: 360px;
     background-position: bottom right;
