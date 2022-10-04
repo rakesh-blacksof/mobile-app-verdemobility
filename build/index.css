@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -15,14 +16,7 @@
   font-family: gilroy-xl-bold;
   src: url(./public/fonts/gilroy-xl-bold.ttf);
 }
-@font-face {
-  font-family: poppins-light;
-  src: url(./public/fonts/Poppins-Light.ttf);
-}
-@font-face {
-  font-family: poppins-medium;
-  src: url(./public/fonts/Poppins-Medium.ttf);
-}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -41,7 +35,8 @@ img {
 footer {
   background-color: #000000;
   color: #ffffff;
-  font-family: poppins-light;
+  font-family: poppins;
+  font-weight: 300;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -85,15 +80,16 @@ footer a:hover {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: gilroy-xl-bold;
-  font-weight: 800;
+
   line-height: 0.95;
   text-transform: uppercase;
   font-style: italic;
 }
 .mobile_app_wrapper p {
   font-size: 1rem;
-  font-family: poppins-light;
+  font-family: poppins;
   line-height: 1.4;
+  font-weight: 300;
 }
 
 /*  header  */
@@ -116,7 +112,8 @@ nav .links_wrapper {
   gap: 30px;
 }
 nav .links_wrapper a {
-  font-family: poppins-medium;
+  font-family: poppins;
+  font-weight: 500;
   border-radius: 9999px;
   border: 2px solid #000000;
   font-size: 1rem;
@@ -139,7 +136,8 @@ nav .links_wrapper .contact {
   background-color: #f5f5f5;
   color: #000000;
   padding: 10px;
-  font-family: poppins-medium;
+  font-family: poppins;
+  font-weight: 500;
   font-size: 1.5rem;
   text-align: center;
   border-top: 1px solid #e6e6e6;
@@ -156,7 +154,7 @@ nav .links_wrapper .contact {
   background-color: #f5f5f5;
   height: calc(100vh - 100px);
   min-height: 600px;
-  background-image: url("./public/img/banner_img.png");
+  background-image: url("./public/img/banner_img.webp");
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: bottom right;
@@ -224,9 +222,12 @@ nav .links_wrapper .contact {
 }
 
 .banner_wrapper .text_wrapper span {
-  font-family: poppins-light;
+  font-family: poppins;
   font-weight: 300;
   line-height: 1.25;
+}
+.text_wrapper span b {
+  font-weight: 500;
 }
 
 .banner_wrapper .btn_wrapper {
