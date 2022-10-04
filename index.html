@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./index.css" />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <header>
@@ -25,12 +25,12 @@
     </section>
     <section class="banner_wrapper">
       <div class="text_wrapper">
-        <h2>Plug into India's Largest <b>EV Charging</b> Network with <b>VerdeMobility</b> EV Life App</b></h2>
+        <h2 data-aos="zoom-in">Plug into India's Largest <b>EV Charging</b> Network with <b>VerdeMobility</b> EV Life App</b></h2>
         <span
-          >The road to a sustainable future 
+        data-aos="zoom-in">The road to a sustainable future 
           <b >begins here!</b></span
         >
-        <div class="btn_wrapper">
+        <div class="btn_wrapper" data-aos="zoom-in">
           <a
             href="https://apps.apple.com/in/app/verdemobility/id1622189313"
             rel="noreferrer"
@@ -52,18 +52,18 @@
       </div>
     </section>
     <section class="mobile_app_wrapper">
-      <img src="./public/img/mobile_app.png" alt="mobile app" />
-      <h2>
+      <img data-aos="zoom-in" src="./public/img/mobile_app.png" alt="mobile app" />
+      <h2 data-aos="zoom-in">
         Get Access <br />
         To Our Network.
       </h2>
-      <p>
+      <p data-aos="zoom-in"> 
         The VerdeMobility EV Life App is available for both App Store and Google Play Store. Download the app and let's charge ahead for a greener & better future.
       </p>
     </section>
 
     <footer>
-      <span>
+      <span >
         Copyright 2022 ©<span class="text-green">verdemobility</span>. All
         Rights Reserved.
       </span>
@@ -189,4 +189,14 @@
       </div>
     </footer>
   </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+  
+AOS.init({
+      offset: 200,
+      duration: 600,
+      easing: 'ease-in-sine',
+      delay: 100,
+    });
+  </script>
 </html>
