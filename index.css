@@ -173,7 +173,6 @@ nav .links_wrapper .contact {
     height: calc(100vh);
     background: none;
     flex-direction: column;
-
   }
 
   .banner_wrapper .img_wrapper {
@@ -182,7 +181,6 @@ nav .links_wrapper .contact {
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: bottom right;
-
   }
 }
 @media (max-width: 786px) {
@@ -234,7 +232,7 @@ nav .links_wrapper .contact {
 .banner_wrapper .btn_wrapper {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   gap: 10px;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -325,6 +323,9 @@ nav .links_wrapper .contact {
   }
   .mobile_app_wrapper h2 {
     font-size: 3.5rem;
+  }
+  .banner_wrapper .btn_wrapper {
+    justify-content: flex-start !important  ;
   }
   .mobile_app_wrapper p {
     font-size: 18px;
